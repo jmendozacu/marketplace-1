@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <mppartnergroup_index_index>
+		<reference name="head">
+			<action method="addCss"><stylesheet>marketplace/css/mppartnergroup.css</stylesheet></action>
+			<action method="addCss"><stylesheet>marketplace/css/style.css</stylesheet></action>
+		</reference>
+		<update handle="customer_account"/>
+        <reference name="content">
+            <block type="mppartnergroup/mppartnergroup" name="mppartnergroup" template="mppartnergroup/feepayment.phtml" />
+        </reference>
+    </mppartnergroup_index_index>
+	<customer_account>
+		<block name="marketplacenavigation">
+			<block type="core/template" name="feeleftlink" template="mppartnergroup/feeleftlink.phtml"/>
+		</block>
+    </customer_account>
+	<marketplace_marketplaceaccount_newproduct>
+		<reference name="head">
+			<action method="addCss"><stylesheet>marketplace/css/mppartnergroup.css</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="mppartnergroup/mppartnergroup" name="mppartnergroup" template="mppartnergroup/mppartnergroup.phtml"/>
+		</reference>
+	</marketplace_marketplaceaccount_newproduct>
+</layout> 

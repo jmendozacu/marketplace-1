@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <mppartnergroup_adminhtml_mppartnergroup_index>
+        <reference name="content">
+            <block type="mppartnergroup/adminhtml_mppartnergroup" name="mppartnergroup" />
+        </reference>
+    </mppartnergroup_adminhtml_mppartnergroup_index>
+	 <mppartnergroup_adminhtml_assinegroup_index>
+        <reference name="content">
+            <block type="mppartnergroup/adminhtml_assinegroup" name="assinegroup" />
+        </reference>
+    </mppartnergroup_adminhtml_assinegroup_index>
+</layout>

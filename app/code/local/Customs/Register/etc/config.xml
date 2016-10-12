@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Customs_Register>
+            <version>1.0.10</version> <!--0.0.1-->
+        </Customs_Register>
+    </modules>
+    
+    <frontend>
+        <routers>
+            <customer>
+                <use>standard</use>
+                <args>
+                    <modules>
+                        <Customs_Register before="Mage_Customer">Customs_Register</Customs_Register>
+                    </modules>
+                </args>
+            </customer>
+        </routers>
+    </frontend>
+    
+    <global>
+        <models>
+            <customer>
+                <rewrite>
+                    <customer>Customs_Register_Model_Customer</customer>
+                </rewrite>
+            </customer>
+            
+            <exploration>
+                <class>Customs_Register_Model</class>
+            </exploration>
+            
+        </models>
+        <resources>
+            <customs_register_setup>
+                <setup>
+                    <module>Customs_Register</module>
+                    <class>Mage_Customer_Model_Resource_Setup</class>
+                    <!--<class>Mage_Eav_Model_Entity_Setup</class>-->                    
+                    
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </customs_register_setup>            
+        </resources>
+    </global>
+
+</config>

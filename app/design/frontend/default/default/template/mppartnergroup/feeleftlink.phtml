@@ -1,0 +1,12 @@
+<?php $magentoCurrentUrl = Mage::helper('core/url')->getCurrentUrl(); 
+$feefront=Mage::getStoreConfig('marketplace/mppartnergroup/feefront'); 
+if($feefront!=0){ ?>
+<li <?php echo strpos($magentoCurrentUrl,'mppartnergroup/index')? "class=current":"";?>>
+	<?php if(strpos($magentoCurrentUrl,'mppartnergroup/index')){ ?>
+		<strong><?php echo Mage::helper('mppartnergroup')->__('Pay Group Fee') ?></strong>
+	<?php }
+	else{ ?>
+		<a href="<?php echo $this->getUrl('mppartnergroup/index'); ?>"><?php echo Mage::helper('mppartnergroup')->__('Pay Group Fee') ?></a>
+	<?php } ?>
+</li>
+<?php } ?>

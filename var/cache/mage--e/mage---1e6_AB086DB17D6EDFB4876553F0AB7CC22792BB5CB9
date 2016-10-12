@@ -1,0 +1,27 @@
+<form id="search_mini_form" action="//192.168.0.143/porto_1.9.1/index.php/catalogsearch/result/" method="get">
+    <div class="form-search ">
+        <label for="search">Search:</label>
+                <input id="search" type="text" name="q" class="input-text" />
+                <select id="cat" name="cat">
+            <option value="">All Categories</option>
+                            <option value="3">Fashion</option>
+                                                            <option value="6">- Women</option>
+                                            <option value="7">- Men</option>
+                                            <option value="8">- Jewellery</option>
+                                            <option value="9">- Kids Fashion</option>
+                                                                <option value="4">Electronics</option>
+                                                            <option value="24">- Smart TVs</option>
+                                            <option value="25">- Cameras</option>
+                                            <option value="26">- Games</option>
+                                                                <option value="5">Motors</option>
+                                                            <option value="45">- Cars and Trucks</option>
+                                            <option value="46">- Motorcycles & Powersports</option>
+                                            <option value="47">- Parts & Accessories</option>
+                                            <option value="48">- Boats</option>
+                                            <option value="49">- Auto Tools & Supplies</option>
+                                                        </select>
+                <button type="submit" title="Search" class="button"><i class="icon-search"></i></button>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+        <div class="clearer"></div>
+    </div>
+</form>

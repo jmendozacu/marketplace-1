@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<customconfig translate="label">
+			<label>Custom Configuration</label>
+			<sort_order>150</sort_order>
+		</customconfig>
+	</tabs>
+	<sections>
+		<selectoptions translate="label" module="adminhtml">
+			<label>Customer Select Options</label>
+			<tab>customconfig</tab>
+			<sort_order>10</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<general translate="label">
+					<label>Set up select options</label>
+					<sort_order>50</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+                        <textarea translate="label comment">
+						<label>Specify customer source reson</label>
+						<comment>Enter customer source codes separated by a comma (ex: value 1, value 2, ...).</comment>
+						<frontend_type>textarea</frontend_type>
+						<sort_order>20</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						</textarea>
+                        
+						<typevendors translate="label comment">
+						<label>Specify customer source vendor type</label>
+						<comment>Enter customer source codes separated by a comma (ex: value 1, value 2, ...).</comment>
+						<frontend_type>textarea</frontend_type>
+						<sort_order>22</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						</typevendors>
+					</fields>
+				</general>
+			</groups>
+		</selectoptions>
+	</sections>
+</config>

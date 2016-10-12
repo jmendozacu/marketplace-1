@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+		<marketplace>            
+			<children>
+				<webkul_mppartnergroup>
+					<title>Manage Partners Group</title>
+					<sort_order>7</sort_order>
+					<action>mppartnergroup/adminhtml_mppartnergroup</action>
+				</webkul_mppartnergroup>
+			</children>
+		</marketplace>
+	</menu>
+ 
+	<acl>
+        <resources>
+            <admin>
+                <children>                           
+					<marketplace>
+						<children>
+							<webkul_mppartnergroup>
+								<title>Manage Partners Group</title>
+								<action>mppartnergroup/adminhtml_mppartnergroup</action>
+							</webkul_mppartnergroup>
+						</children>								
+					</marketplace>	
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

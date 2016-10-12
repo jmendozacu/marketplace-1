@@ -1,0 +1,72 @@
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Netzarbeiter
+ * @package    Netzarbeiter_GroupSwitcher
+ * @copyright  Copyright (c) 2009 Vinai Kopp http://netzarbeiter.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+Author: Vinai Kopp <vinai@netzarbeiter.com>
+Sponsor: Allyn Technology Group - www.allyntech.com
+
+This extension enables you to automatically change a customers group when specific conditions are met.
+Possible conditions are:
+- A specific product is brought
+- A certain amount of orders (or more) have been placed by the customer
+- The customer has generated a certain (or higher) turnover, total or over the last N days
+- An order with a specific total (or higher) is placed
+
+The details of the conditions can configured as follows:
+- Customer group to switch the customer to
+- Rule trigger type
+- Rule condition value (the SKU, or the amounts).
+  For turnver time triggers, enter the number of days, then a pipe symbol |, then the amount.
+- Apply rule only if the customer currently is in a specific group
+- Apply rule only if the order matches a specific status (pending, complete, ...)
+- Apply rule only to orders from specific store views
+
+USAGE:
+After the installation there is a new menu entry in the admin interface under
+Customers > Customer Groups > Group Switch Rules
+
+There you can add as many rules as you need in the usual magento way.
+
+CONFIGURATION:
+You can disable the extension on a store view level at
+System > Configuration > Customer Configuration > Customer Group Switcher
+
+CHANGELOG:
+0.1.8	Add trigger types to check the turnover the last N days
+0.1.7	Initial Release
+
+TODO:
+- Add German locale
+- Add customer email domain rule type
+- Add a group-code property. When cutomers enter a code they are switched to a specfic customer group.
+  This code shoud entered during registration.
+- Do I want to limit NumOrders and TotalTurnover selects to orders from the store_id's of the rule??
+- Ajax search autocomplete when entering sku's
+- Hide store_ids multiselect on single store installations
+- Mass update rule status
+
+
+If you have ideas for improvements or find bugs, please send them to vinai@netzarbeiter.com,
+with Netzarbeiter_GroupSwitcher as part of the subject
+

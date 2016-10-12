@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Customs_Api>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Customs_Api>
+  </modules>
+</config>

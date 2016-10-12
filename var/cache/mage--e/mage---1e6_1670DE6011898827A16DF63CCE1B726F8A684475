@@ -1,0 +1,228 @@
+<div class="header-wrapper">
+<div class="main-nav">
+    <div class="container">            
+        <div class="menu-wrapper">
+            <div class="menu-all-pages-container">
+                <ul class="menu">
+                    <li class="act">
+    <a href="http://192.168.0.143/porto_1.9.1/index.php/">
+       <span>Home</span>
+    </a>
+</li>
+<li class="menu-static-width ">
+<a href="http://192.168.0.143/porto_1.9.1/index.php/fashion.html">Fashion <span class="cat-label cat-label-label1">New</span></a>
+<div class="nav-sublist-dropdown" style="display: none; width:600px;">
+<div class="container">
+<div class="mega-columns row">
+<div class="block1 col-sm-7">
+<div class="row">
+<ul>
+<li class="menu-item menu-item-has-children menu-parent-item col-sw-2  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/women.html"><span>Women</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/women/tops-blouses.html"><span>Tops &amp; Blouses</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/women/accessories.html"><span>Accessories</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/women/dresses-skirts.html"><span>Dresses &amp; Skirts</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/women/shoes-boots.html"><span>Shoes &amp; Boots</span></a></li></ul></div></li><li class="menu-item menu-item-has-children menu-parent-item col-sw-2  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/men.html"><span>Men</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/men/accessories.html"><span>Accessories</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/men/watch-fashion.html"><span>Watch Fashion</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/men/tees-knits-polos.html"><span>Tees, Knits &amp; Polos</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/men/pants-denim.html"><span>Pants &amp; Denim</span></a></li></ul></div></li><li class="menu-item menu-item-has-children menu-parent-item col-sw-2  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/jewellery.html"><span>Jewellery</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/jewellery/sweaters.html"><span>Sweaters</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/jewellery/sweaters-2.html"><span>Sweaters</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/jewellery/jeans-shorts.html"><span>Jeans &amp; Shorts</span></a></li></ul></div></li><li class="menu-item menu-item-has-children menu-parent-item col-sw-2  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/kids-fashion.html"><span>Kids Fashion</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/kids-fashion/casual-shoes.html"><span>Casual Shoes</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/kids-fashion/spring-autumn.html"><span>Spring &amp; Autumn</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/fashion/kids-fashion/winter-sneakers.html"><span>Winter Sneakers</span></a></li></ul></div></li>
+</ul>
+</div>
+</div>
+<div class="right-mega-block col-sm-5"><img src="http://192.168.0.143/porto_1.9.1/media/wysiwyg/porto/category/banner/fashion_b.png" alt="" style="position: absolute;right: 10px;top: -10px;height: 273px;width: auto;max-width: none;z-index: -1;border-radius: 8px;" /></div>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-full-width ">
+<a href="http://192.168.0.143/porto_1.9.1/index.php/electronics.html">Electronics</a>
+<div class="nav-sublist-dropdown" style="display: none;">
+<div class="container">
+<div class="top-mega-block"><div style="margin: 0 20px;padding: 10px 0 15px;border-bottom: 1px solid #eee;width: 63%;color: #000;"><b style="margin-right: 15px;">SUGGESTIONS:</b><a href="#" style="margin-right: 15px;color:#000">3D</a><a href="#" style="margin-right: 15px;color:#000">MOBILE</a><a href="#" style="margin-right: 15px;color:#000">CAMERAS</a><a href="#" style="color:#000">HEADSETS</a></div></div>
+<div class="mega-columns row">
+<div class="block1 col-sm-8">
+<div class="row">
+<ul>
+<li class="menu-item menu-item-has-children menu-parent-item col-sw-3  "><div class="menu_thumb_img"><a class="menu_thumb_link" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs.html"><img src="http://192.168.0.143/porto_1.9.1/media/catalog/category/smart_tv.png" alt="Thumbnail Image" /></a></div><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs.html"><span>Smart TVs</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs/tv-audio.html"><span>TV, Audio</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs/computers-tablets.html"><span>Computers &amp; Tablets</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs/home-office-equipments.html"><span>Home Office Equipments</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs/gps-navigation.html"><span>GPS Navigation</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs/car-audio-video-gps.html"><span>Car Audio, Video &amp; GPS</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/smart-tvs/radios-clock-radios.html"><span>Radios &amp; Clock Radios</span></a></li></ul></div></li><li class="menu-item menu-item-has-children menu-parent-item col-sw-3  "><div class="menu_thumb_img"><a class="menu_thumb_link" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras.html"><img src="http://192.168.0.143/porto_1.9.1/media/catalog/category/camera.png" alt="Thumbnail Image" /></a></div><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras.html"><span>Cameras</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras/cell-phones-accessories.html"><span>Cell Phones &amp; Accessories</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras/cameras-photo.html"><span>Cameras &amp; Photo</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras/photo-accessories.html"><span>Photo Accessories</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras/ip-phones.html"><span>IP Phones</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras/samsung-galaxy-phones.html"><span>Samsung Galaxy Phones</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/cameras/ipad-android-tablets.html"><span>iPad &amp; Android Tablets</span></a></li></ul></div></li><li class="menu-item menu-item-has-children menu-parent-item col-sw-3  "><div class="menu_thumb_img"><a class="menu_thumb_link" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games.html"><img src="http://192.168.0.143/porto_1.9.1/media/catalog/category/game.png" alt="Thumbnail Image" /></a></div><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games.html"><span>Games</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games/e-book-readers.html"><span>e-Book Readers</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games/video-games-consolers.html"><span>Video Games &amp; Consolers</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games/printers-scanners.html"><span>Printers &amp; Scanners</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games/digital-picture-frames.html"><span>Digital Picture Frames</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games/3d-fashion-games.html"><span>3D Fashion Games</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/electronics/games/game-machine-devices.html"><span>Game Machine &amp; Devices</span></a></li></ul></div></li>
+</ul>
+</div>
+</div>
+<div class="right-mega-block col-sm-4"><div class="menu-right-block" style="position: relative;text-align:center;"><img src="http://192.168.0.143/porto_1.9.1/media/wysiwyg/porto/category/banner/electronic.png" alt="" style="margin-top:20px"/>
+<div style="position: absolute;top: -35px;left: -15px;text-align: left;">
+<h2 style="font-size: 23px;font-weight: 600;color: #fff;background-color: #2e2e2e;line-height: 1;padding: 6px 50px 6px 8px;">SHOP NOW <b style="font-weight:700;">3D</b> <strong style="font-weight: 800;">TV's</strong></h2>
+<a class="btn btn-default" style="padding: 5px 7px 5px 15px;color: #fff; border: 0;font-size:13px;" href="http://newsmartwave.net/magento/porto/index.php/electronics.html">VIEW NOW <em class="icon-right-dir"></em></a></div>
+<div style="position: absolute;bottom: 8px;width: 60%;text-align: center;left: 50px;line-height: 14px;font-size: 13px;">This is a custom block. You can add any images or links here.</div>
+</div></div>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-has-children menu-parent-item ">
+<a href="http://192.168.0.143/porto_1.9.1/index.php/motors.html">Motors</a>
+<div class="nav-sublist-dropdown" style="display: none;">
+<div class="container">
+<ul>
+<li class="menu-item  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/motors/cars-and-trucks.html"><span>Cars and Trucks</span></a></li><li class="menu-item  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/motors/motorcycles-powersports.html"><span>Motorcycles &amp; Powersports</span></a></li><li class="menu-item menu-item-has-children menu-parent-item  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/motors/parts-accessories.html"><span>Parts &amp; Accessories</span></a><div class="nav-sublist level1"><ul><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/motors/parts-accessories/motorcycle-parts.html"><span>Motorcycle Parts</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/motors/parts-accessories/atv-parts.html"><span>ATV Parts</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/motors/parts-accessories/snowmobile-parts.html"><span>Snowmobile Parts</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/motors/parts-accessories/personal-watercraft-parts.html"><span>Personal Watercraft Parts</span></a></li><li class="menu-item "><a class="level2" href="http://192.168.0.143/porto_1.9.1/index.php/motors/parts-accessories/other-vehicle-parts.html"><span>Other Vehicle Parts</span></a></li></ul></div></li><li class="menu-item  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/motors/boats.html"><span>Boats</span></a></li><li class="menu-item  "><a class="level1" href="http://192.168.0.143/porto_1.9.1/index.php/motors/auto-tools-supplies.html"><span>Auto Tools &amp; Supplies</span></a></li>
+</ul>
+</div>
+</div>
+</li>
+
+
+    <li class="menu-full-width ">
+        <a href="javascript:;">Features<span class="cat-label cat-label-label2">Hot!</span></a>
+        <div class="nav-sublist-dropdown" style="display: none; list-style: none;">
+            <div class="container">
+                <div class="mega-columns row">
+                    <div class="block1 col-sm-12">
+                        <div class="row">
+                            <ul>
+                                <li class="menu-item menu-item-has-children menu-parent-item col-sw-4" style="list-style: none;">
+                                    <a class="level1" href="javascript:;"><span>Homepage Variations</span></a>
+                                    <div class="nav-sublist level1">
+                                        <ul>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo1_en"><span>Home Layout 1</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo2_en"><span>Home Layout 2</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo3_en"><span>Home Layout 3</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo4_en"><span>Home Layout 4</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo5_en"><span>Home Layout 5</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo6_en"><span>Home Layout 6</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo7_en"><span>Home Layout 7</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo8_en"><span>Home Layout 8</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo4_sa"><span>Home RTL Layout</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                                                <li class="menu-item menu-item-has-children menu-parent-item col-sw-4" style="list-style: none;">
+                                    <a class="level1" href="javascript:;"><span>Shop Variations 1</span></a>
+                                    <div class="nav-sublist level1">
+                                        <ul>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/electronics.html"><span>Fullwidth Banner</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/electronics.html"><span>Parallax Banner</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion.html"><span>Boxed Slider Banner</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/women.html"><span>Boxed Image Banner</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion.html"><span>Left Sidebar</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/electronics/cameras.html"><span>Right Sidebar</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/men/accessories.html?___store=demo6_fr"><span>2 Columns Products</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/men/tees-knits-and-polos.html?___store=demo6_fr"><span>3 Columns Products</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/men/shirts.html?___store=demo6_fr"><span>4 Columns Products</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item menu-item-has-children menu-parent-item col-sw-4" style="list-style: none;">
+                                    <a class="level1" href="javascript:;"><span>Shop Variations 2</span></a>
+                                    <div class="nav-sublist level1">
+                                        <ul>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/men/pants-denim.html?___store=demo6_fr"><span>5 Columns Products</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/kids/casual-shoes.html?___store=demo6_fr"><span>6 Columns Products</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/kids/outwear.html?___store=demo6_fr"><span>7 Columns Products</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/kids/sneakers.html?___store=demo6_fr"><span>8 Columns Products</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                            <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/women-dress-m-rolex.html"><span>Product Page with Sidebar</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/racer-back-maxi-dress.html"><span>Product Page without Sidebar</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/women-dress.html"><span>Configurable Sample Product</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/electronics/games/seiko-bundle.html"><span>Bundle Sample Product</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/fashion/jewellery/women-jewellery.html"><span>Grouped Sample Product</span></a>
+                                            </li>                                            
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item menu-item-has-children menu-parent-item col-sw-4" style="list-style: none;">
+                                    <a class="level1" href="javascript:;"><span>Headers</span></a>
+                                    <div class="nav-sublist level1">
+                                        <ul>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo1_en"><span>Header Type 1</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo2_en"><span>Header Type 2</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo4_en"><span>Header Type 3</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo5_en"><span>Header Type 4</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo7_en"><span>Header Type 5</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo5_fr"><span>Header Type 6</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo7_fr"><span>Header Type 7</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo8_fr"><span>Header Type 8</span></a>
+                                            </li>
+                                            <li class="menu-item " style="list-style: none;">
+                                                <a class="level2" href="http://newsmartwave.net/magento/porto/index.php/?___store=demo3_en"><span>Other Colorful Headers</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var SW_MENU_POPUP_WIDTH = 0;
+//]]>
+</script>

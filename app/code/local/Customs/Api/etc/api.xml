@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+  <api>
+    <resources>
+      <api_product translate="title" module="api">
+        <model>api/product_api</model>
+        <title>Demo API module</title>
+        <acl>api/product</acl>
+        <methods>
+          <list translate="title" module="api">
+            <title>List of products</title>
+            <method>items</method>
+          </list>
+        </methods>
+      </api_product>
+    </resources>
+    <resources_alias>
+      <product>api_product</product>
+    </resources_alias>
+    <v2>
+      <resources_function_prefix>
+         <product>apiProduct</product>
+      </resources_function_prefix>
+    </v2>
+    <acl>
+      <resources>
+        <api translate="title" module="api">
+          <title>Products</title>
+          <sort_order>5</sort_order>
+          <product translate="title" module="api">
+            <title>Product data</title>
+          </product>
+        </api>
+      </resources>
+    </acl>
+  </api>
+</config>

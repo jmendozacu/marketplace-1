@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Netzarbeiter
+ * @package    Netzarbeiter_GroupSwitcher
+ * @copyright  Copyright (c) 2009 Vinai Kopp http://netzarbeiter.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Netzarbeiter_GroupSwitcher>
+            <version>0.1.8</version>
+        </Netzarbeiter_GroupSwitcher>
+    </modules>
+	<global>
+		<models>
+			<GroupSwitcher>
+				<class>Netzarbeiter_GroupSwitcher_Model</class>
+				<resourceModel>GroupSwitcher_mysql4</resourceModel>
+			</GroupSwitcher>
+			<GroupSwitcher_mysql4>
+				<class>Netzarbeiter_GroupSwitcher_Model_Mysql4</class>
+				<entities>
+					<rule>
+						<table>groupswitcher_rule</table>
+					</rule>
+				</entities>
+			</GroupSwitcher_mysql4>
+			<sales>
+				<rewrite>
+					<order_status_history>Netzarbeiter_GroupSwitcher_Model_Sales_Order_Status_History</order_status_history>
+				</rewrite>
+			</sales>
+		</models>
+		<helpers>
+			<GroupSwitcher>
+				<class>Netzarbeiter_GroupSwitcher_Helper</class>
+			</GroupSwitcher>
+		</helpers>
+		<blocks>
+			<GroupSwitcher>
+				<class>Netzarbeiter_GroupSwitcher_Block</class>
+			</GroupSwitcher>
+		</blocks>
+		<resources>
+			<GroupSwitcher_setup>
+				<setup>
+					<module>Netzarbeiter_GroupSwitcher</module>
+					<class>Mage_Eav_Model_Entity_Setup</class>
+				</setup>
+				<connection>
+					<use>default_setup</use>
+				</connection>
+			</GroupSwitcher_setup>
+			<GroupSwitcher_write>
+				<connection><use>default_write</use></connection>
+			</GroupSwitcher_write>
+			<GroupSwitcher_read>
+				<connection><use>default_read</use></connection>
+			</GroupSwitcher_read>
+		</resources>
+		<groupswitcher>
+			<rule>
+				<types>
+					<!-- These must match the enum types in the groupswitcher_rule.rule_type table column -->
+					<buy_product>
+						<label>Purchase of specific product</label>
+						<model>GroupSwitcher/rule_type_buyProduct</model>
+					</buy_product>
+					<num_orders>
+						<label>Number of orders</label>
+						<model>GroupSwitcher/rule_type_numOrders</model>
+					</num_orders>
+					<order_total>
+						<label>Single order total</label>
+						<model>GroupSwitcher/rule_type_orderTotal</model>
+					</order_total>
+					<total_turnover>
+						<label>Total turnover of the customer</label>
+						<model>GroupSwitcher/rule_type_turnoverTotal</model>
+					</total_turnover>
+					<turnover_days_ge>
+						<label>Turnover of the last N days is greater or equal (Condition: N|Amount)</label>
+						<model>GroupSwitcher/rule_type_turnoverDaysGe</model>
+					</turnover_days_ge>
+					<turnover_days_lt>
+						<label>Turnover of the last N days is less then (Condition: N|Amount)</label>
+						<model>GroupSwitcher/rule_type_turnoverDaysLt</model>
+					</turnover_days_lt>
+				</types>
+			</rule>
+		</groupswitcher>
+	</global>
+	<frontend>
+		<events>
+			<order_status_history_save_after>
+				<observers>
+					<groupscatalog>
+						<type>singleton</type>
+						<class>GroupSwitcher/observer</class>
+						<method>orderStatusHistorySaveAfter</method>
+					</groupscatalog>
+				</observers>
+			</order_status_history_save_after>
+			<customer_login>
+				<observers>
+					<groupscatalog>
+						<type>singleton</type>
+						<class>GroupSwitcher/observer</class>
+						<method>customerLogin</method>
+					</groupscatalog>
+				</observers>
+			</customer_login>
+		</events>
+	</frontend>
+	<adminhtml>
+		<events>
+			<order_status_history_save_after>
+				<observers>
+					<groupscatalog>
+						<type>singleton</type>
+						<class>GroupSwitcher/observer</class>
+						<method>orderStatusHistorySaveAfter</method>
+					</groupscatalog>
+				</observers>
+			</order_status_history_save_after>
+		</events>
+		<layout>
+			<updates>
+				<GroupSwitcher>
+					<file>groupswitcher.xml</file>
+				</GroupSwitcher>
+			</updates>
+		</layout>
+        <translate>
+            <modules>
+                <Netzarbeiter_GroupSwitcher>
+                     <files>
+                          <default>Netzarbeiter_GroupSwitcher.csv</default>
+                     </files>
+                </Netzarbeiter_GroupSwitcher>
+            </modules>
+        </translate>
+		<menu>
+			<customer>
+				<children>
+					<group>
+						<children>
+							<groupswitcher translate="title" module="GroupSwitcher">
+								<title>Group Switch Rules</title>
+								<sort_order>10</sort_order>
+								<action>adminhtml/groupswitcher_rules</action>
+							</groupswitcher>
+						</children>
+					</group>
+				</children>
+			</customer>
+		</menu>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<customer>
+							<children>
+								<group>
+									<children>
+										<groupswitcher translate="title" module="GroupSwitcher">
+											<title>Group Switch Rules</title>
+										</groupswitcher>
+									</children>
+								</group>
+							</children>
+						</customer>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<groupswitcher before="Mage_Adminhtml">Netzarbeiter_GroupSwitcher_Adminhtml</groupswitcher>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<default>
+		<customer>
+            <groupswitcher>
+				<enable_ext>1</enable_ext>
+			</groupswitcher>
+		</customer>
+	</default>
+</config>

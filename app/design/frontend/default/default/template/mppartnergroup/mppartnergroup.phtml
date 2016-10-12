@@ -1,0 +1,15 @@
+<?php $data=$this->getPermission();
+	if($data['status']){ ?>	
+		<script>
+		(function($wk_jq){
+			$wk_jq(function(){
+				$wk_jq('#form-customer-product-new input,#form-customer-product-new button').attr('disabled','disabled');
+			});
+		})(jQuery);	
+		</script>
+		<?php if($data['expair']){?>
+			<h1 class="partner_notify">Your Group Pack is Expair...</h1>
+		<?php }else{ ?>
+		<h1 class="partner_notify">You can't add more products because your "<?php echo $data['type'] ?>" group allow only <?php echo $data['qty'] ?> products to add..</h1>
+		<?php } 
+	} ?>
